@@ -1,1 +1,60 @@
 
+body {
+
+}
+
+.wrapper {
+  background: #1c5edf;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#logo mask path:nth-child(1){
+stroke-dasharray: 30px;
+fill: rgb(222, 95, 30);
+
+}
+
+#logo path:nth-child(2){
+stroke-dasharray: 200px;
+stroke-dasharray: 50px;
+
+
+}
+
+#logo path:nth-child(3){
+
+}
+
+#logo path:nth-child(4){
+
+}
+
+#logo path:nth-child(5){
+
+}
+
+#logo path:nth-child(6){
+
+}
+
+#logo path:nth-child(7){
+
+}
+
+#logo path:nth-child(8){
+
+}
+#logo path:nth-child(9){
+  stroke-dasharray: 5px;
+
+
+}
