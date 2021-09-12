@@ -119,16 +119,16 @@ body {}
   stroke-width: 5;
   /* stroke-linejoin: miter; */
   stroke-linecap: round;
-  /* animation: svg-text 3s ease backwards, svg-fill .7s ease forwards 2.8s; */
-  animation: svg-text 3s ease forwards;
+  animation: svg-text 3s ease forwards, svg-fill .7s ease forwards 2.8s;
+  /* animation: svg-text 3s ease forwards; */
 }
 @keyframes svg-text {
   from {
-    stroke-dasharray: 5% 55%;
+    stroke-dasharray: 0% 50%;
   }
 
   to {
-    stroke-dasharray: 55% 0;
+    stroke-dasharray: 50% 0;
   }
 }
 @keyframes svg-fill {
