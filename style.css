@@ -6,8 +6,14 @@ body {}
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 64px;
 }
+.title {
+  max-width: 800px;
+  width: 100%;
+  line-height: 0;
 
+}
 #logo {
 
 }
@@ -105,6 +111,9 @@ body {}
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 50vh;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .svg-text {
